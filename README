@@ -1,0 +1,22 @@
+RHEL Clone Support Information and Scripts
+==========================================
+
+If you're using a clone of Red Hat Enterprise Linux, especially a clone
+which is not CentOS, you're probably somewhat familiar with various rough
+edges caused by things assuming things about your system which aren't
+true... or worse, not assuming things because they don't see your system
+as being nearly RHEL. The stuff in this repository may be useful to you.
+
+Most of the contents have been tested on Scientific Linux 6.x and CentOS
+6.x. Your mileage may vary on other clones or versions, but barring
+any information listed to the contrary these things should work on any
+reasonable clone.
+
+Contents
+--------
+
+```rhel-lsb_release.sh```: Intended for use as an alias to fool
+things into thinking they're running on RHEL. Usage example: ```alias
+lsb_release='/path/to/your/rhel-lsb_release.sh'``` More information:
+http://geekbakery.net/archives/2012/08/make-your-rhel-clone-look-legit-to-installers.geek
+
